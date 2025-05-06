@@ -1,7 +1,7 @@
 
 # 🌱 ZARA'A – Smart Farming Assistant
 
-Zaraa v4 is a multimodal AI assistant designed to support farmers by analyzing plant health, responding to queries via voice, image, or text input, and retrieving useful agricultural knowledge.
+ZARA'A is a multimodal AI assistant designed to support farmers by analyzing plant health, responding to queries via voice, image, or text input, and retrieving useful agricultural knowledge.
 
 ## 🧠 Features
 
