@@ -1,5 +1,5 @@
 
-# 🌱 Zaraa v4 – Smart Farming Assistant
+# 🌱 ZARA'A – Smart Farming Assistant
 
 Zaraa v4 is a multimodal AI assistant designed to support farmers by analyzing plant health, responding to queries via voice, image, or text input, and retrieving useful agricultural knowledge.
 
@@ -68,7 +68,6 @@ python main.py
 Watch the full walkthrough of the project deployment:
 
 [📹 View on Google Drive](https://drive.google.com/drive/folders/1stX8JwcTGDCcLD9PJBk9pbLYKnnzx1Ri?usp=sharing)  
-> _Make sure the video is publicly viewable or access is granted._
 
 ## 🛠 Tech Stack
 
