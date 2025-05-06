@@ -1,0 +1,201 @@
+/* Dark overlay for better text visibility */
+.gradio-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(15, 23, 42, 0.85); /* Dark blue with opacity */
+    z-index: -1;
+}
+
+/* Logo styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.app-logo {
+    height: 100px;
+    max-width: 140px;
+    object-fit: contain;
+}
+
+/* Hide footer */
+footer {
+    display: none !important;
+}
+
+/* Title styling */
+.app-header {
+    margin: 20px auto;
+    padding: 20px 30px;
+    max-width: 1000px;
+    border-radius: 20px;
+    background-color: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+}
+
+/* Remove the corn emoji since we have a logo now */
+.app-header h1::before {
+    content: "";
+    margin-right: 0;
+}
+
+/* Tab styling */
+.tab-nav {
+    background-color: rgba(30, 41, 59, 0.8) !important;
+    border-radius: 8px 8px 0 0 !important;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.tab-nav button {
+    color: #e2e8f0 !important;
+    background-color: transparent !important;
+    border: none !important;
+    font-weight: bold !important;
+    transition: all 0.3s ease !important;
+}
+
+.tab-nav button.selected {
+    color: #22c55e !important;
+    border-bottom: 2px solid #22c55e !important;
+    background-color: rgba(34, 197, 94, 0.1) !important;
+}
+
+button.secondary {
+    background-color: rgba(51, 65, 85, 0.8) !important;
+    color: white !important;
+    border: 1px solid #475569 !important;
+    border-radius: 6px !important;
+    transition: all 0.3s ease !important;
+}
+
+button.secondary:hover {
+    background-color: rgba(71, 85, 105, 0.8) !important;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #94a3b8 !important;
+}
+
+/* Panel styling */
+.container, .gr-box, .gr-form, .gr-panel {
+    background-color: rgba(30, 41, 59, 0.8) !important;
+    border: 1px solid #334155 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+}
+
+/* Chat messages */
+.message.user {
+    background-color: rgba(51, 65, 85, 0.9) !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border-left: 3px solid #e9e9e9 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.message.bot {
+    background-color: rgba(35, 104, 61, 0.9) !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border-left: 3px solid #e9e9e9 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.message.user::before {
+    content: "🧑 You ";
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.message.bot::before {
+    content: "🧑‍🌾 Zara'a Farming Assistant";
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+/* Info boxes */
+.info-box {
+    background-color: rgba(30, 41, 59, 0.8) !important;
+    border-left: 4px solid #22c55e !important;
+    padding: 10px 15px !important;
+    margin: 10px 0 !important;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.warning-box {
+    background-color: rgba(30, 41, 59, 0.8) !important;
+    border-left: 4px solid #f59e0b !important;
+    padding: 10px 15px !important;
+    margin: 10px 0 !important;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Labels */
+label span {
+    color: #cbd5e1 !important;
+    font-weight: 500 !important;
+}
+
+/* Accordion */
+.accordion .label-wrap {
+    background-color: rgba(51, 65, 85, 0.8) !important;
+    border-radius: 6px !important;
+}
+
+/* Image upload area with better visibility */
+.upload-box {
+    background-color: rgba(30, 41, 59, 0.8) !important;
+    border: 2px dashed #64748b !important;
+    border-radius: 8px !important;
+}
+
+/* Making headers more visible */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Slider styling */
+.slider-handle {
+    background-color: #22c55e !important;
+}
+
+.slider-track {
+    background-color: rgba(34, 197, 94, 0.3) !important;
+}
+
+#chat-container {
+    background-color: rgba(15, 23, 42, 0.4) !important; 
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px !important;
+    padding: 10px !important;
+    backdrop-filter: blur(6px); 
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.gr-chatbot {
+    background-color: rgba(15, 23, 42, 0.4) !important;  
+    backdrop-filter: blur(6px);  
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
