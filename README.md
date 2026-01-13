@@ -91,5 +91,5 @@ pip install -r requirement.txt
 
 ## 👨‍🌾 Authors
 
-- Project led by: [Your Name]
+- Project led by: Abdulaziz Alshehri
 - AI Bootcamp Final Project
